@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="left-wing">
+        <div class="row-one">
+          <div class="profile">
+            <div class="profile-head">
+              <img src="./images/image-daniel.jpg" alt="" width="80px" />
+              <div>
+                <p class="name">Daniel Clifford</p>
+                <p class="title">Verified Graduate</p>
+              </div>
+            </div>
+            <p class="testimonial">
+              I received a job offer mid-course, and the subjects I learned were
+              current, if not more so, in the company I joined. I honestly feel
+              I got every penny’s worth.
+            </p>
+            <p class="quote">
+              "I was an EMT for many years before I joined the bootcamp. I’ve
+              been looking to make a transition and have heard some people who
+              had an amazing experience here. I signed up for the free intro
+              course and found it incredibly fun! I enrolled shortly thereafter.
+              "
+            </p>
+          </div>
+          <div class="profile">
+            <div class="profile-head">
+              <img src="./images/image-daniel.jpg" alt="" width="80px" />
+              <div>
+                <p class="name">Daniel Clifford</p>
+                <p class="title">Verified Graduate</p>
+              </div>
+            </div>
+            <p class="testimonial">
+              I received a job offer mid-course, and the subjects I learned were
+              current, if not more so, in the company I joined. I honestly feel
+              I got every penny’s worth.
+            </p>
+            <p class="quote">
+              "I was an EMT for many years before I joined the bootcamp. I’ve
+              been looking to make a transition and have heard some people who
+              had an amazing experience here. I signed up for the free intro
+              course and found it incredibly fun! I enrolled shortly thereafter.
+              "
+            </p>
+          </div>
+        </div>
+        <div class="row-two">
+          <div class="profile">
+            <div class="profile-head">
+              <img src="./images/image-daniel.jpg" alt="" width="80px" />
+              <div>
+                <p class="name">Daniel Clifford</p>
+                <p class="title">Verified Graduate</p>
+              </div>
+            </div>
+            <p class="testimonial">
+              I received a job offer mid-course, and the subjects I learned were
+              current, if not more so, in the company I joined. I honestly feel
+              I got every penny’s worth.
+            </p>
+            <p class="quote">
+              "I was an EMT for many years before I joined the bootcamp. I’ve
+              been looking to make a transition and have heard some people who
+              had an amazing experience here. I signed up for the free intro
+              course and found it incredibly fun! I enrolled shortly thereafter.
+              "
+            </p>
+          </div>
+          <div class="profile">
+            <div class="profile-head">
+              <img src="./images/image-daniel.jpg" alt="" width="80px" />
+              <div>
+                <p class="name">Daniel Clifford</p>
+                <p class="title">Verified Graduate</p>
+              </div>
+            </div>
+            <p class="testimonial">
+              I received a job offer mid-course, and the subjects I learned were
+              current, if not more so, in the company I joined. I honestly feel
+              I got every penny’s worth.
+            </p>
+            <p class="quote">
+              "I was an EMT for many years before I joined the bootcamp. I’ve
+              been looking to make a transition and have heard some people who
+              had an amazing experience here. I signed up for the free intro
+              course and found it incredibly fun! I enrolled shortly thereafter.
+              "
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-wing profile">
+        <div class="profile-head">
+          <img src="./images/image-daniel.jpg" alt="" width="80px" />
+          <div>
+            <p class="name">Daniel Clifford</p>
+            <p class="title">Verified Graduate</p>
+          </div>
+        </div>
+        <p class="testimonial">
+          I received a job offer mid-course, and the subjects I learned were
+          current, if not more so, in the company I joined. I honestly feel I
+          got every penny’s worth.
+        </p>
+        <p class="quote">
+          "I was an EMT for many years before I joined the bootcamp. I’ve been
+          looking to make a transition and have heard some people who had an
+          amazing experience here. I signed up for the free intro course and
+          found it incredibly fun! I enrolled shortly thereafter. "
+        </p>
+      </div>
+    </main>
+
+    <style>
+      main {
+        border: 3px solid red;
+        display: flex;
+        gap: 20px;
+      }
+      .left-wing {
+        flex: 3;
+        background-color: lightblue;
+      }
+      .right-wing {
+        flex: 1;
+        background-color: coral;
+      }
+      .row-one {
+        display: flex;
+        gap: 30px;
+        margin: 20px;
+      }
+      .row-two {
+        display: flex;
+        gap: 30px;
+        margin: 20px;
+      }
+      .row-one .profile:first-child {
+        flex: 2;
+        background-color: pink;
+      }
+      .row-one .profile:nth-child(2) {
+        flex: 1;
+        background-color: yellow;
+      }
+      .row-two .profile:first-child {
+        flex: 1;
+        background-color: black;
+      }
+      .row-two .profile:nth-child(2) {
+        flex: 2;
+        background-color: green;
+      }
+      div {
+        border: 2px solid green;
+        min-width: 100px;
+        min-height: 100px;
+      }
+      .profile {
+        border-color: blue;
+      }
+      .profile-head {
+        display: flex;
+      }
+      /* CSS Grid --- 3dm layout */
+    </style>
+  </body>
+</html>
